@@ -30,7 +30,7 @@ public class Main {
         int[] money = {20_000, 15_000, 35_000, 25_999, 50_000};
         int suma = 0;
         for (int i = 0; i < money.length; i++) {
-            suma = summa + money[i];
+            suma = suma + money[i];
         }
         double average = (double) suma / money.length;
         System.out.println("Средняя сумма трат за месяц составила " + average);
